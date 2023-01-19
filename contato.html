@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <meta charset="UTF-8">
+        <title>Contatos</title>
+
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+    </head>
+
+    <body>
+
+        <header>
+
+            <div class="bloco_central">
+                <h1><img src="logo.png"></h1>
+
+                <nav>
+                    <ul>
+                        <li><a href="home.html">Home</a></li>
+                        <li><a href="produtos.html">Produtos</a></li>
+                        <li><a href="contato.html">Contatos</a></li>
+                    </ul>
+                </nav>
+
+            </div>
+
+
+        </header>
+
+
+        <main>
+            <form>
+                <label for="nome_sobrenome">Digite seu nome</label>
+                <input type="text" id="nome_sobrenome" class="input-padrao" required placeholder="Nome Completo">
+
+                <label for="email">Digite seu Email</label>
+                <input type="email" id="email" class="input-padrao" required placeholder="seuemail@dominio.com"> 
+
+                <label for="telefone">Digite seu Telefone </label>
+                <input type="tel" id="telefone" class="input-padrao" required placeholder="(xx) xxxxx-xxxx">
+
+                <label for="livre">Mensagem</label>
+                <textarea id ="Mensagem" cols="70" rows="10" class="input-padrao"></textarea required>
+
+                <div>
+
+                    <p class="pergunta">Como prefere o seu contato?</p>
+
+                    <label><input type="radio" name="contato">Email</label>
+    
+                    <label><input type="radio" name="contato">Telefone</label>
+
+                    <label><input type="radio" name="contato" checked> Wathsapp</label>
+                    
+
+                 </div>
+
+                 <div>
+                    <p>Qual horário pretende ser atendido?</p>
+
+                    <select>
+
+                            <option>Manhã</option>
+                            <option>Atarde</option>
+                            <option>Anoite</option>
+                    </select>
+                </div>
+
+
+                <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por E-mail</label>
+
+                
+
+            </form>
+
+        </main>
+
+        <footer>
+            <img src="logo-branco.png">
+            <p 
+                class="rodape">&copy; Copyright Barbearia Alura - 2023
+
+            </p>
+        </footer>
+        
+    </body>
+</html>
