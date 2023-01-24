@@ -15,7 +15,7 @@
         <header>
 
             <div class="bloco_central">
-                <h1><img src="logo.png"></h1>
+                <h1><img src="logo.png" alt="Logo da barbearia Alura"></h1>
 
                 <nav>
                     <ul>
@@ -45,9 +45,9 @@
                 <label for="livre">Mensagem</label>
                 <textarea id ="Mensagem" cols="70" rows="10" class="input-padrao"></textarea required>
 
-                <div>
+                 <fieldset>
 
-                    <p class="pergunta">Como prefere o seu contato?</p>
+                    <legend class="pergunta">Como prefere o seu contato?</legend>
 
                     <label><input type="radio" name="contato">Email</label>
     
@@ -56,30 +56,67 @@
                     <label><input type="radio" name="contato" checked> Wathsapp</label>
                     
 
-                 </div>
+                 </fieldset>
 
-                 <div>
-                    <p>Qual horário pretende ser atendido?</p>
+                    <fieldset>
+                        <legend>Qual horário pretende ser atendido?</legend>
 
-                    <select>
+                        <select>
 
-                            <option>Manhã</option>
-                            <option>Atarde</option>
-                            <option>Anoite</option>
-                    </select>
-                </div>
+                                <option>Manhã</option>
+                                <option>Atarde</option>
+                                <option>Anoite</option>
+                        </select>
+                    </fieldset>
 
 
                 <label class="checkbox"><input type="checkbox">Gostaria de receber nossas novidades por E-mail</label>
 
-                
+                <input type="submit" name="Enviar" class="enviar">
 
             </form>
+
+            <table>  
+
+                <thead>
+
+                    <tr>
+                        <td>Dia</td>
+                        <td>Horário</td> 
+    
+                    </tr>
+                    
+                </thead>
+
+                <tbody>
+
+                    <tr>
+                        <td>Segunda</td>
+                        <td>8h ~20h</td> 
+    
+                     </tr>
+    
+                    <tr>
+                        <td>Quarta</td>
+                        <td>8h ~20h</td> 
+    
+                    </tr>
+    
+                    <tr>
+                        <td>Sexta</td>
+                        <td>8h ~20h</td> 
+    
+                     </tr>
+                </tbody>
+                
+             
+
+            </table>
 
         </main>
 
         <footer>
-            <img src="logo-branco.png">
+            <img src="logo-branco.png" alt="Logo da Barbearia Alura">
             <p 
                 class="rodape">&copy; Copyright Barbearia Alura - 2023
 
