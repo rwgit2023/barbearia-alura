@@ -1,3 +1,5 @@
+/* cabeçalho de todas as páginas */
+
 header{
 background-color: grey;
 padding: 20px 0;
@@ -42,6 +44,44 @@ nav a:hover{
 
 
 
+/* Página Home */
+
+.banner{
+    width: 100%;
+}
+
+.titulo-principal{
+    text-align: center;
+    font-size: 2em;
+    color: black;
+    font-weight: bold;
+    margin: 0 0 1em 0;
+    clear: left;         /*  para limpar o float usado na imagem utensilios */
+
+}
+
+.principal p{
+    margin: 0 0 1em 0;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em{
+    font-style: italic;
+}
+
+.imagem_beneficios{
+    width: 60%
+} 
+
+.utensilios{
+    width: 120px;
+    float: left;         /* Para imagens flutuar e os testes irem na frente */
+    margin: 0 20px 20px 0;
+
+}
 
 
 
@@ -52,19 +92,17 @@ nav a:hover{
 
 
 
-
-
-
-
-
-
-
+/* Página de Produtos e Contatos e também algumas coisas da Home */
 
 main{
     width: 940px;
     margin: 0 auto;
 }
 
+
+
+
+/* Contatos */
 form{
     margin: 40px 0;
     
@@ -122,6 +160,8 @@ td,th{
     padding: 8px 15px;
 }
 
+
+/* Produtos */
 
 .produtos{
     width: 940px;
@@ -205,7 +245,7 @@ li h2{
 
 
 
-
+/* Rodapé de todas as páginas */
 
 
 
