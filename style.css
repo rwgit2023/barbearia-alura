@@ -100,6 +100,24 @@ nav a:hover{
     font-style: italic;
 }
 
+/* main > p{
+    background: color;                        //  Faço oque quiser com os filhos diretos da main
+}
+
+img + p{
+    background: red;                          // Faço oque quiser com o primeiro irmao da img (p)
+}
+
+img ~ p{
+    background: yellow;                      // Faço oque quiser com todos os irmãos da img
+} */
+/* 
+.principal p:not(#missao){                  Faço oque quiser com todos os p que nao sao a missao
+    background: orangered;
+} */
+
+
+
 .imagem_beneficios{
     width: 60%
 } 
@@ -186,8 +204,9 @@ nav a:hover{
 
 /* Página de Produtos e Contatos e também algumas coisas da Home */
 
-main{
+.centralizar{
 
+    margin: 0 0 0 40px;
 }
 
 
@@ -196,6 +215,7 @@ main{
 /* Contatos */
 form{
     margin: 40px 0;
+    
     
 }
 
