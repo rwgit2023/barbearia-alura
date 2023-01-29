@@ -63,6 +63,7 @@ nav a:hover{
     font-weight: bold;
     margin: 0 0 1em 0;
     clear: left;         /*  para limpar o float usado na imagem utensilios */
+    color: rgba(0, 0, 0,0.3);
 
 }
 
@@ -118,10 +119,6 @@ img ~ p{
 
 
 
-.imagem_beneficios{
-    width: 60%
-} 
-
 .utensilios{
     width: 120px;
     float: left;         /* Para imagens flutuar e os testes irem na frente */
@@ -142,7 +139,7 @@ img ~ p{
 .mapa p{
     margin: 0 0 3em 0;
     text-align: center;
-    
+  
 }
 
 .mapa-conteudo{
@@ -179,8 +176,14 @@ img ~ p{
 }*/
 .imagem_beneficios{
     width: 60%;
-    
+    opacity: 1;
+    transition: 400ms;
 }
+
+.imagem_beneficios:hover{
+    opacity: 0.3;
+}
+
 
 
 
