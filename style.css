@@ -63,7 +63,8 @@ nav a:hover{
     font-weight: bold;
     margin: 0 0 1em 0;
     clear: left;         /*  para limpar o float usado na imagem utensilios */
-    color: rgba(0, 0, 0,0.3);
+    text-shadow: 2px 2px blue;   /* Sombrear */
+    
 
 }
 
@@ -149,6 +150,7 @@ img ~ p{
 .beneficios{
     padding: 3em 0;
     background: linear-gradient(#888888, black);
+    /* box-shadow: inset 0 0 30px red;  Sombra Interna*/
 }
 .conteudo-beneficios{
     width: 640px;
@@ -178,6 +180,7 @@ img ~ p{
     width: 60%;
     opacity: 1;
     transition: 400ms;
+    box-shadow: 20px 20px 10px 10px black /*, -10px -10px yellow    Serve para colocr uma sombra onde desejar. */
 }
 
 .imagem_beneficios:hover{
