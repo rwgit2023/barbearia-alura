@@ -79,7 +79,7 @@ nav a:hover{
     /* content: " ]"; */
 /* }  */
 /*  */
-
+/*  */
  
 
 
@@ -105,11 +105,9 @@ nav a:hover{
 /* main > p{
     background: color;                        //  Faço oque quiser com os filhos diretos da main
 }
-
 img + p{
     background: red;                          // Faço oque quiser com o primeiro irmao da img (p)
 }
-
 img ~ p{
     background: yellow;                      // Faço oque quiser com todos os irmãos da img
 } */
@@ -180,7 +178,7 @@ img ~ p{
     width: 60%;
     opacity: 1;
     transition: 400ms;
-    box-shadow: 10px 10px 10px 10px black /*, -10px -10px yellow    Serve para colocr uma sombra onde desejar. */
+    box-shadow: 20px 20px 10px 10px black /*, -10px -10px yellow    Serve para colocr uma sombra onde desejar. */
 }
 
 .imagem_beneficios:hover{
@@ -198,57 +196,7 @@ img ~ p{
 
 
 
-@media screen and (max-width: 480px) {
-    .bloco_central, .principal, .conteudo-beneficios, .mapa-conteudo, .video{
-        width: auto;
-    }   
 
-    h1{
-        text-align: center;
-
-    }
-    nav{
-        position: static;
-    }
-    
-    .lista-beneficios, .imagem_beneficios{
-        width: 100%;
-    }
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    .caixa, .principal, .conteudo-beneficios, .mapa-conteudo, .video {
-        width: auto;
-    }
-
-    h1 {
-        text-align: center;
-    }
-
-    nav {
-        position: static;
-    }
-
-    .lista-beneficios, .imagem-beneficios {
-        width: 100%;
-    }
 
 
 
@@ -428,4 +376,3 @@ footer{
     margin-top: 20px;
 
 }
-    
